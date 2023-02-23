@@ -1,0 +1,262 @@
+// // font-size--------
+// .fz-96 {
+//    font-size: 96px;
+// }
+
+// .fz-40 {
+//    font-size: 40px;
+// }
+
+// .fz-32 {
+//    font-size: 32px;
+// }
+
+// .fz-30 {
+//    font-size: 30px;
+// }
+
+// .fz-24 {
+//    font-size: 24px;
+// }
+
+// .fz-20 {
+//    font-size: 20px;
+// }
+
+// .fz-18 {
+//    font-size: 18px;
+// }
+
+// .fz-14 {
+//    font-size: 14px;
+// }
+
+
+// // line-height--------
+
+
+// .lh-16 {
+//    line-height: 16px;
+// }
+
+// .lh-21 {
+//    line-height: 21px;
+// }
+
+// .lh-28 {
+//    line-height: 28px;
+// }
+
+// .lh-23 {
+//    line-height: 23px;
+// }
+
+// .lh-19 {
+//    line-height: 19px;
+// }
+
+// .lh-15 {
+//    line-height: 15px;
+// }
+
+
+
+// NULL STYLE ######################
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+*,
+*::before,
+*::after {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:focus,
+:active,
+a:focus,
+a:active {
+   outline: none;
+}
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+input::-ms-clear {
+   display: none;
+}
+button {
+   cursor: pointer;
+   background-color: transparent;
+}
+a,
+a:hover,
+a:visited {
+   text-decoration: none;
+}
+ul, li {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+img {
+   vertical-align: top;
+}
+
+// BODY STRUCTURE==========================
+
+body,
+a {
+   font-weight: 700;
+   font-size: 24px;
+   // line-height: 28px;
+   color: #fff;
+   font-family: "Roboto", sans-serif;
+}
+
+// FLEX POSITION STRUCTURE=================
+.flex,
+.flex-center,
+.flex-right,
+.flex-between,
+.flex-column {
+   display: flex;
+}
+
+.flex-center,
+.flex-right,
+.flex-between {
+   align-items: center;
+}
+
+.flex-center {
+   justify-content: center;
+}
+
+.flex-right {
+   justify-content: right;
+}
+
+.flex-between {
+   justify-content: space-between;
+}
+
+.flex-column {
+   flex-direction: column;
+}
+
+.flex-wrap {
+   flex-wrap: wrap;
+}
+
+.fx-1 {
+   flex: 1;
+}
+
+.fx-2 {
+   flex: 2;
+}
+
+.gap-40 {
+   gap: 40px;
+}
+
+// BUTTON STRUCTURE=========================
+.btn {
+   font-weight: 500;
+}
+// @media (max-width: 375px) {
+//    .btn {
+//       height: 32px;
+//    }
+// }
+// TEXT STRUCTURE===========================
+.text-center {
+   text-align: center;
+}
+
+// font-weight--------
+.fw-700 {
+   font-weight: 700;
+}
+
+.fw-500 {
+   font-weight: 500;
+}
+
+.fw-400 {
+   font-weight: 400;
+}
+
+
+// COLOR STRUCTURE==========================
+
+.bg-white {
+   background: #fff;
+}
+
+.bg-black {
+   background: #000;
+}
+
+.bg-purple {
+   background: #5855e7;
+}
+
+.c-white {
+   color: #fff;
+}
+.c-black {
+   color: #000;
+}
+.c-purple {
+   color: #5855e7;
+}
+.c-gray {
+   color: #eee;
+}
+
+// RADIUS STRUCTURE=========================
+.border-3 {
+   border: 3px solid #6347EB;
+}
+
+.border-8 {
+   border: 8px solid #fff;
+}
+// RADIUS STRUCTURE=========================
+
+.bd-circle {
+   border-radius: 50%;
+}
+.bd-rad-15 {
+   border-radius: 15px;
+}
+
+.bd-rad-10 {
+   border-radius: 10px;
+}
+
+.bd-rad-5 {
+   border-radius: 5px;
+}
+// ACTIVE STRUCTURE=========================
