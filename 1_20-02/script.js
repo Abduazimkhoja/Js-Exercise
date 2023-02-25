@@ -1,4 +1,4 @@
-// lesson - 1
+// lesson - 1 variables, datatype
 let name = "Ilya";
 
 console.log(`hello ${1}`); // hello 1. вставляем число
