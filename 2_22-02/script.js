@@ -1,4 +1,4 @@
-// lesson - 2
+// lesson - 2 Operator, Comparision, Logical Operators
 
 // prefix and postfix
 /*
