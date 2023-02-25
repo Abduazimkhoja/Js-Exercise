@@ -1,3 +1,4 @@
+// lesson - 3
 // // hw1 📚
 // // if else ↷
 // if (name === "ECMAScript") console.log(true);
