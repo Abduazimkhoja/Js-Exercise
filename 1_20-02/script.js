@@ -1,3 +1,4 @@
+// lesson - 1
 let name = "Ilya";
 
 console.log(`hello ${1}`); // hello 1. вставляем число
