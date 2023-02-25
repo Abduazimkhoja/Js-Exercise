@@ -1,4 +1,4 @@
-// lesson - 3
+// lesson - 3 If-else, ternary, switch, Nullish, for, while
 // // hw1 📚
 // // if else ↷
 // if (name === "ECMAScript") console.log(true);
@@ -76,18 +76,25 @@
 
 
 
-// // 1)  Если переменная a равна нулю, то выведите 'Верно', иначе выведите 'Неверно'.
-// // Проверьте работу скрипта при a, равном 1, 0, -3.
-
+// // 1)  В переменной day лежит какое-то число из интервала от 1 до 31. Определите в какую декаду месяца попадает это число (в первую, вторую или третью).
+   let day = 11;
 // // if else ↷
-// if (a === 0) console.log("Верно");
+// let day = 0;
+// if (10 > day && day > 0) console.log("первый");
+// else if (20 > day && day > 0) console.log("вторая");
+// else if (31 > day && day > 0) console.log("третья");
 // else console.log("Неверно");
 
 // // Ternary operator ↷
-// a === 0 ? console.log("true") : console.log("false");
+10 > day && day > 0 
+   ? console.log("первый")
+   : 20 > day && day > 0
+   ? console.log("вторая")
+   : 31 > day && day > 0
+   ? console.log("третья")
+   : console.log("Неверно");
+
 
 // // Switch ↷
-// switch (a) {
-//    case 0: console.log("true"); break;
-//    default: console.log("false"); break;
-// }
+
+
