@@ -1,7 +1,7 @@
-// lesson - 3 If-else, ternary, switch, Nullish, for, while
+// lesson - 3 If-else, ternary, switch, Nullish, for
 
 let title = "ECMAScript";
-// ## HomeWork-1 📚
+// ## HomeWork-1 📚 /////////////////////////////////////
 // if else ↷
 if (title === "ECMAScript") console.log(true);
 else console.log(false);
@@ -19,7 +19,7 @@ switch (title) {
       break;
 }
 
-// ## HomeWork-2 📚
+// ## HomeWork-2 📚 /////////////////////////////////////
 let num = 1;
 // if else ↷
 if (num > 0) console.log("if, else " + 1);
@@ -33,7 +33,7 @@ num > 0
    ? console.log("ternary " + -1)
    : console.log("ternary " + 0);
 
-// ## HomeWork-3 📚
+// ## HomeWork-3 📚 /////////////////////////////////////
 let a = 1,
    b = 1;
 // if else ↷
@@ -43,7 +43,7 @@ else console.log("over");
 // Ternary operator ↷
 a + b < 4 ? console.log("below") : console.log("over");
 
-// ## HomeWork-4 📚
+// ## HomeWork-4 📚 /////////////////////////////////////
 let login = "Employee";
 // if else ↷
 if (login == "Employee") console.log("hello");
@@ -76,8 +76,49 @@ switch (login) {
       break;
 }
 
-// ## HomeWork-5 📚 PRIME NUMBER:
+// ## HomeWork-5 📚  /////////////////////////////////////
+let browser = "edge";
 // if else ↷
+if (browser == "edge") {
+   console.log("you've got the edge!");
+} else if (
+   browser == "chrome" ||
+   browser == "firefox" ||
+   browser == "safari" ||
+   browser == "opera"
+) {
+   console.log("okey we support these browser too");
+} else {
+   console.log("we hope that this page looks ok!");
+}
+
+// Ternary operator ↷
+browser == "edge"
+   ? console.log("you've got the edge!")
+   : browser == "chrome" ||
+     browser == "firefox" ||
+     browser == "safari" ||
+     browser == "opera"
+   ? console.log("okay we support these browser too")
+   : console.log("we hope that this page looks ok!");
+
+// Switch ↷
+switch (browser) {
+   case "edge":
+      console.log("you've got the edge!");
+      break;
+   case "chrome":
+   case "firefox":
+   case "safari":
+   case "opera":
+      console.log("okay we support these browser too");
+      break;
+   default:
+      console.log("we hope that this page looks ok!");
+}
+
+// ## HomeWork-6 📚 PRIME NUMBER: //////////////////////////
+// For ↷
 let pick = "2 3 5 7";
 for (let i = 1; i <= 100; i += 2) {
    if (i != 1 && i % 2 != 0 && i % 3 != 0 && i % 5 != 0 && i % 7 != 0) {
@@ -86,6 +127,19 @@ for (let i = 1; i <= 100; i += 2) {
 }
 console.log(pick);
 
+// ## HomeWork-7 📚 Multiplication table: //////////////////////////
+// For ↷
+for (let i = 2; i < 10; i++) {
+   for (let j = 2; j < 10; j++) {
+      console.log(`${i} * ${j} = ${i * j}`);
+   }
+   console.log("");
+}
+
+
+
+
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //
 
 // 1)  В переменной day лежит какое-то число из интервала от 1 до 31.
 // Определите в какую декаду месяца попадает это число (в первую, вторую или третью).
@@ -105,7 +159,6 @@ else console.log("Неверно");
    : 31 > day && day > 0
    ? console.log("третья")
    : console.log("Неверно");
-
 
 // 2) В переменной month лежит какое-то число из интервала от 1 до 12.
 // Определите в какую пору года попадает этот месяц (зима, лето, весна, осень).
@@ -154,7 +207,3 @@ switch (month) {
       console.log("Неверно");
       break;
 }
-
-// 3) Дана строка, состоящая из символов, например, 'abcde'.
-// Проверьте, что первым символом этой строки является буква 'a'.
-// Если это так - выведите 'да', в противном случае выведите 'нет'.
