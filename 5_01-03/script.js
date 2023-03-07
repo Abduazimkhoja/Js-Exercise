@@ -1,4 +1,4 @@
-//  lesson - 5 Objects Basics - 1
+// lesson - 5 Objects Basics - 1
 
 // ## HomeWork-1 📚 /////////////////////////////////////
 let user = {
