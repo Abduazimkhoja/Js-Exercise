@@ -173,5 +173,11 @@ let person = {
       },
    },
 };
+let sum = 0;
+while (person) {
+   sum += person.age;
+   person = person.child;
+};
+console.log(sum);
 // chiqish
 // 146
