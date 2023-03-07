@@ -1,4 +1,4 @@
-// lesson - 6 Object | Objects - 2
+//  lesson - 6 Object | Objects - 2
 
 // No8
 // array ichida object berilgan. job berilgan objectlarni qaytaring
