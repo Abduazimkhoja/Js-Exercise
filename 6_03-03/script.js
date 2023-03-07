@@ -1,1 +1,1 @@
-// lesson - 6 Object | Objects - 2
+// // lesson - 6 Object | Objects - 2
