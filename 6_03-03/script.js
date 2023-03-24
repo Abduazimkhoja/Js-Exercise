@@ -24,7 +24,7 @@ console.log("№9", cloneObj);
 // objectga yangi qiymat qo'shuvchi funksiya yozing
 let obj2 = {};
 const getObject = (obj, key, value) => {
-   obj.key = value;
+   obj[key] = value;
 };
 getObject(obj2, "address", "toshkent");
 console.log("№10", obj2);
