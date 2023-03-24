@@ -1,4 +1,4 @@
-//lesson 9 array 1/3 length,at,indexOf,push,pop,shift,unshift,splice,slice,concat,reverse,split,join
+//lesson 9 array 1/3 length,at,indexOf,concat,reverse,push,pop,shift,unshift,splice,slice,split,join
 // 1
 console.log("1↴");
 const calcSumArr = (arr) => {
