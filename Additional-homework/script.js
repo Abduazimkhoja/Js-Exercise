@@ -97,7 +97,7 @@ console.log(sum);
 // chiqish
 // 146
 
-// No7
+// No7 ❓❓❓❓❓
 // array berilgan array ning ichida objectlar berilgan. object ichida age berilgan. age ni 18dan katta bolgan objectlarni qaytaring
 let user = {
    id: 1,
