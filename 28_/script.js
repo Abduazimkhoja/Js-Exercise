@@ -1,3 +1,3 @@
-// DOM-1
+// DOM1: selector,nodes,elements...
 
 
