@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,41 @@
    <link rel="stylesheet" href="style.css">
    <title>slider</title>
 </head>
-<body>
 
+<body>
+   <div class="parrent">
+      <div class="wrapper">
+         <div class="container">
+            <div class="slide"><img class="wrapper__img" src="https://via.placeholder.com/200x200/A3D6AA/E0F6FD" alt="">
+            </div>
+            <div class="slide"><img class="wrapper__img" src="https://via.placeholder.com/200x200/5FD8FF/E0F6FD" alt="">
+            </div>
+            <div class="slide"><img class="wrapper__img" src="https://via.placeholder.com/200x200/F98CA5/E0F6FD" alt="">
+            </div>
+            <div class="slide"><img class="wrapper__img" src="https://via.placeholder.com/200x200/FFF570/E0F6FD" alt="">
+            </div>
+            <div class="slide"><img class="wrapper__img" src="https://via.placeholder.com/200x200/7DB3CB/E0F6FD" alt="">
+            </div>
+            <div class="slide"><img class="wrapper__img" src="https://via.placeholder.com/200x200/FEB68F/E0F6FD" alt="">
+            </div>
+            <div class="slide"><img class="wrapper__img" src="https://via.placeholder.com/200x200/D2ED83/E0F6FD" alt="">
+            </div>
+            <div class="slide"><img class="wrapper__img" src="https://via.placeholder.com/200x200/FD86C7/E0F6FD" alt="">
+            </div>
+            <div class="slide"><img class="wrapper__img" src="https://via.placeholder.com/200x200/FFDAC8/E0F6FD" alt="">
+            </div>
+            
+         </div>
+      </div>
+      <button id="leftBtn" class="button" onclick="slideLeft()">&#9001;</button>
+      <button id="rightBtn" class="button" onclick="slideRight()">&#9002;</button>
+      <div id="dots" class="dots">
+         <!-- <span class="dot dot-active" onclick="dotNavigate(event)"></span>
+         <span class="dot" onclick="dotNavigate(event)"></span>
+         <span class="dot" onclick="dotNavigate(event)"></span> -->
+      </div>
+   </div>
    <script src="script.js"></script>
 </body>
+
 </html>
